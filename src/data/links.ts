@@ -8,8 +8,6 @@ export type ProfileLink = {
   accent: string;
 };
 
-export const profileLinks: ProfileLink[] = [
-  
-];
+export const profileLinks: ProfileLink[] = [];
 
 export const featuredLinkNames = [];
