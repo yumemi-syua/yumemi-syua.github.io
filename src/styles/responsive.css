@@ -231,7 +231,7 @@
   }
 
   .hero-title {
-    font-size: clamp(62px, 22vw, 118px);
+    font-size: clamp(62px, 22vw, 70px);
   }
 
   .hero-copy {
@@ -686,4 +686,9 @@
   .has-cookie-banner .top-button {
     bottom: 178px;
   }
+}
+@media (max-width: 420px) {
+    .hero-title {
+        font-size: clamp(58px, 21vw, 50px);
+    }
 }
