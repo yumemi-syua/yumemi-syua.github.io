@@ -16,34 +16,34 @@ const siteUrl = Astro.site ?? new URL("https://yunfie-twitter.github.io");
 const canonicalUrl = new URL(withBase("/"), siteUrl).toString();
 const ogImageUrl = new URL(withBase("/ogp.png"), siteUrl).toString();
 const description =
-  "ゆんふぃの公式ホームページです。YouTube、GitHub、Ko-fi、note、X、Instagram、Misskeyなどの活動リンクをまとめています。";
+  "夢見しゅあの公式ホームページです。";
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "ゆんふぃ",
-  alternateName: ["Yunfie", "yunfie"],
+  name: "夢見しゅあ",
+  alternateName: ["Syua"],
   url: canonicalUrl,
   sameAs: profileLinks.map((link) => link.url),
   description:
-    "ゆんふぃの公式ホームページです。各種SNS・制作活動・投稿サイトへのリンクをまとめています。"
+    "夢見しゅあの公式ホームページです。各種SNS・制作活動・投稿サイトへのリンクをまとめています。"
 };
 ---
 
 <PageLayout
-  title="ゆんふぃ | Official Website"
+  title="夢見しゅあ | Official Website"
   description={description}
   canonicalUrl={canonicalUrl}
   og={{
-    siteName: "ゆんふぃ Official Website",
-    title: "ゆんふぃ | Official Website",
-    description: "ゆんふぃの各種SNS・制作活動・投稿サイトへのリンクをまとめた公式ホームページです。",
+    siteName: "夢見しゅあ Official Website",
+    title: "夢見しゅあ | Official Website",
+    description: "夢見しゅあの各種SNS・制作活動・投稿サイトへのリンクをまとめた公式ホームページです。",
     url: canonicalUrl,
     image: ogImageUrl
   }}
   twitter={{
-    title: "ゆんふぃ | Official Website",
-    description: "ゆんふぃのYouTube、GitHub、Ko-fi、note、X、Instagramなどをまとめたホームページです。",
+    title: "夢見しゅあ| Official Website",
+    description: "夢見しゅあのホームページです。",
     image: ogImageUrl,
     site: "@yunfie_misskey",
     creator: "@yunfie_misskey"
