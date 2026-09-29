@@ -8,6 +8,16 @@ export type ProfileLink = {
   accent: string;
 };
 
-export const profileLinks: ProfileLink[] = [];
+export const profileLinks: ProfileLink[] = [
+  {
+    name: "Twitch",
+    url: "https://www.twitch.tv/yumemisi_syuadu",
+    label: "Twitchを開く",
+    text: "https://www.twitch.tv/yumemisi_syuadu",
+    kind: "Streaming",
+    icon: "https://cdn.simpleicons.org/twitch/ffffff",
+    accent: "#9146FF"
+  }
+];
 
-export const featuredLinkNames = [];
+export const featuredLinkNames = ["Twitch"];
