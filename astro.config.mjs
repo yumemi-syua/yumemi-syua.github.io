@@ -46,7 +46,7 @@ const sitemapXmlAlias = () => ({
 });
 
 export default defineConfig({
-  site: "https://yunfie-twitter.github.io",
+  site: "https://yumemi-syua.github.io",
   base: "/pages",
 
   integrations: [
