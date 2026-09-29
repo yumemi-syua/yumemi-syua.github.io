@@ -6,6 +6,4 @@ export type RepositoryLink = {
   image: string;
 };
 
-export const repositories: RepositoryLink[] = [
-
-];
+export const repositories: RepositoryLink[] = [];
