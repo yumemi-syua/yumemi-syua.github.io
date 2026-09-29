@@ -69,7 +69,7 @@
   max-width: 10ch;
   margin: 0;
   font-family: var(--logo);
-  font-size: clamp(78px, 17vw, 230px);
+  font-size: clamp(78px, 17vw, 220px);
   font-weight: 700;
   line-height: 0.82;
   letter-spacing: 0;
